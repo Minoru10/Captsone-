@@ -1,0 +1,17 @@
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\bin\Debug\SPORTSGO1.exe.config
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\bin\Debug\SPORTSGO1.exe
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\bin\Debug\SPORTSGO1.pdb
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.Properties.Resources.resources
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.csproj.GenerateResource.cache
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.csproj.CoreCompileInputs.cache
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.exe
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.pdb
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.LoginForm1.resources
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.ADDPLAYER.resources
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.PLAYERPROFILE.resources
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.SPORTSHOME.resources
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.LogoutPopbox.resources
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.ADDGAME.resources
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.COACHPROFILE.resources
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.csproj.AssemblyReference.cache
+C:\Users\tongw\source\repos\SPORTSGO1\SPORTSGO1\obj\Debug\SPORTSGO1.csproj.SuggestedBindingRedirects.cache

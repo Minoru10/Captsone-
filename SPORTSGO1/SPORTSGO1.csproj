@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33FD6D64-B3F8-4D40-A3DC-526F7F7DCF03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SPORTSGO1</RootNamespace>
+    <AssemblyName>SPORTSGO1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADDGAME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADDGAME.Designer.cs">
+      <DependentUpon>ADDGAME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADDPLAYER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADDPLAYER.Designer.cs">
+      <DependentUpon>ADDPLAYER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COACHPROFILE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COACHPROFILE.Designer.cs">
+      <DependentUpon>COACHPROFILE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogoutPopbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogoutPopbox.Designer.cs">
+      <DependentUpon>LogoutPopbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLAYERPROFILE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLAYERPROFILE.Designer.cs">
+      <DependentUpon>PLAYERPROFILE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SPORTSHOME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPORTSHOME.Designer.cs">
+      <DependentUpon>SPORTSHOME.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ADDGAME.resx">
+      <DependentUpon>ADDGAME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADDPLAYER.resx">
+      <DependentUpon>ADDPLAYER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COACHPROFILE.resx">
+      <DependentUpon>COACHPROFILE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoutPopbox.resx">
+      <DependentUpon>LogoutPopbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLAYERPROFILE.resx">
+      <DependentUpon>PLAYERPROFILE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SPORTSHOME.resx">
+      <DependentUpon>SPORTSHOME.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconLogin.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roster-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet-security-closed-pad-lock-260nw-515395867.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XILBcC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soccer.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soccer1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soccer2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
